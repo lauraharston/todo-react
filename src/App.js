@@ -1,8 +1,14 @@
 import React from 'react'
+import TodoItem from './components/TodoItem'
+
 
 function App() {
     return (
-        <h1>Hello World !</h1>
+        <div className='todo-list'>
+          <TodoItem />  
+          <TodoItem />  
+          <TodoItem />  
+        </div>
     )
 }
 export default App 
