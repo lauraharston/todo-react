@@ -2,7 +2,7 @@ import React from 'react'
 
 function TodoItem(props) {
     
-    const handleChange = () => console.log('change')
+   
     return(
         <div className='todo-item'>
             <input type="checkbox" 
